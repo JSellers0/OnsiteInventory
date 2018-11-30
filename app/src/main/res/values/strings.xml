@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Onsite Inventory</string>
+    <string name="start_instructions">Type your show\'s Showcode into the text box below and then tap New to start a new inventory or Existing to work on a previously started inventory.</string>
+    <string name="show_hint">Showcode</string>
+    <string name="in_but">Inbound</string>
+    <string name="out_but">Outbound</string>
+    <string name="new_but">New</string>
+    <string name="exist_but">Existing</string>
+    <string name="label_instructions">Tap the type of label you need to fill out.</string>
+    <string name="ts_but">Touchscreen</string>
+    <string name="ac_but">Acer</string>
+    <string name="sr_but">Server</string>
+    <string name="pl_but">Pelican</string>
+    <string name="an_but">Anvil</string>
 </resources>
