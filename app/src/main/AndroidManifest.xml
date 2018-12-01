@@ -22,7 +22,8 @@
         <activity android:name=".AcerLabel" />
         <activity android:name=".ServerLabel" />
         <activity android:name=".PelicanLabel" />
-        <activity android:name=".AnvilLabel"></activity>
+        <activity android:name=".AnvilLabel" />
+        <activity android:name=".setShipping"></activity>
     </application>
 
 </manifest>

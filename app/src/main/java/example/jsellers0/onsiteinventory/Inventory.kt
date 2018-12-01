@@ -4,13 +4,16 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
-import android.widget.TextView
 
 class Inventory : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_inventory)
+    }
+
+    fun loadInventory() {
+        //ToDo: Load Inventory
     }
 
     fun openTouchscreenLabel(view: View) {
@@ -36,11 +39,5 @@ class Inventory : AppCompatActivity() {
     fun openAnvilLabel(view: View) {
         val anvil = Intent(this, AnvilLabel::class.java)
         startActivity(anvil)
-    }
-
-    private val showcode = intent.getStringExtra(SHOWCODE)
-
-    val textView = findViewById<TextView>(R.id.showcode_display).apply {
-        text = showcode
     }
 }

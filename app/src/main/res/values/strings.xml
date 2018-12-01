@@ -12,4 +12,9 @@
     <string name="sr_but">Server</string>
     <string name="pl_but">Pelican</string>
     <string name="an_but">Anvil</string>
+    <string name="ship_instructions">Enter a showcode below to set up shipping for labels.  If this is an outbound, enter the email address of the show\'s ODM to email them a copy of your outbound inventory.
+    Touch Add Shipment to add the showcode and email to your inventory.  Once you have entered all shipments, touch Start Inventory to start filling out labels.</string>
+    <string name="email_ship_inventory">ODM Email Address</string>
+    <string name="add_ship_button">Add Shipment</string>
+    <string name="inventory_ship_button">Start Inventory</string>
 </resources>
